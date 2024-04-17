@@ -30,24 +30,24 @@
         {
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
-            tabPage2 = new TabPage();
+            button2 = new Button();
+            button1 = new Button();
+            comboBox2 = new ComboBox();
+            comboBox1 = new ComboBox();
+            textBox3 = new TextBox();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            comboBox1 = new ComboBox();
-            comboBox2 = new ComboBox();
-            button1 = new Button();
-            button2 = new Button();
-            label7 = new Label();
-            textBox4 = new TextBox();
-            button3 = new Button();
+            tabPage2 = new TabPage();
             button4 = new Button();
+            button3 = new Button();
+            textBox4 = new TextBox();
+            label7 = new Label();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -86,19 +86,61 @@
             tabPage1.Text = "tabPage1";
             tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // button2
             // 
-            tabPage2.Controls.Add(button4);
-            tabPage2.Controls.Add(button3);
-            tabPage2.Controls.Add(textBox4);
-            tabPage2.Controls.Add(label7);
-            tabPage2.Location = new Point(4, 29);
-            tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(615, 371);
-            tabPage2.TabIndex = 1;
-            tabPage2.Text = "tabPage2";
-            tabPage2.UseVisualStyleBackColor = true;
+            button2.Location = new Point(434, 314);
+            button2.Name = "button2";
+            button2.Size = new Size(145, 29);
+            button2.TabIndex = 28;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(163, 314);
+            button1.Name = "button1";
+            button1.Size = new Size(152, 29);
+            button1.TabIndex = 27;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(139, 149);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(455, 28);
+            comboBox2.TabIndex = 26;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(139, 255);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(455, 28);
+            comboBox1.TabIndex = 25;
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(139, 40);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(455, 27);
+            textBox3.TabIndex = 24;
+            textBox3.TextChanged += textBox3_TextChanged_1;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(139, 94);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(455, 27);
+            textBox2.TabIndex = 23;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(139, 202);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(455, 27);
+            textBox1.TabIndex = 22;
             // 
             // label1
             // 
@@ -154,87 +196,19 @@
             label6.TabIndex = 21;
             label6.Text = "label6";
             // 
-            // textBox1
+            // tabPage2
             // 
-            textBox1.Location = new Point(139, 202);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(455, 27);
-            textBox1.TabIndex = 22;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(139, 94);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(455, 27);
-            textBox2.TabIndex = 23;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(139, 40);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(455, 27);
-            textBox3.TabIndex = 24;
-            textBox3.TextChanged += textBox3_TextChanged_1;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(139, 255);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(455, 28);
-            comboBox1.TabIndex = 25;
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(139, 149);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(455, 28);
-            comboBox2.TabIndex = 26;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(163, 314);
-            button1.Name = "button1";
-            button1.Size = new Size(152, 29);
-            button1.TabIndex = 27;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(434, 314);
-            button2.Name = "button2";
-            button2.Size = new Size(145, 29);
-            button2.TabIndex = 28;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(261, 15);
-            label7.Name = "label7";
-            label7.Size = new Size(50, 20);
-            label7.TabIndex = 0;
-            label7.Text = "label7";
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(33, 55);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(278, 271);
-            textBox4.TabIndex = 1;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(375, 82);
-            button3.Name = "button3";
-            button3.Size = new Size(161, 49);
-            button3.TabIndex = 2;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
+            tabPage2.Controls.Add(button4);
+            tabPage2.Controls.Add(button3);
+            tabPage2.Controls.Add(textBox4);
+            tabPage2.Controls.Add(label7);
+            tabPage2.Location = new Point(4, 29);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Padding = new Padding(3);
+            tabPage2.Size = new Size(615, 371);
+            tabPage2.TabIndex = 1;
+            tabPage2.Text = "tabPage2";
+            tabPage2.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
@@ -244,6 +218,33 @@
             button4.TabIndex = 3;
             button4.Text = "button4";
             button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(375, 82);
+            button3.Name = "button3";
+            button3.Size = new Size(161, 49);
+            button3.TabIndex = 2;
+            button3.Text = "button3";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(33, 55);
+            textBox4.Multiline = true;
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(278, 271);
+            textBox4.TabIndex = 1;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(261, 15);
+            label7.Name = "label7";
+            label7.Size = new Size(50, 20);
+            label7.TabIndex = 0;
+            label7.Text = "label7";
             // 
             // Form1
             // 
