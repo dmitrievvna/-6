@@ -81,14 +81,14 @@
             tabPage1.Controls.Add(label6);
             tabPage1.Location = new Point(4, 29);
             tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3, 3, 3, 3);
+            tabPage1.Padding = new Padding(3);
             tabPage1.Size = new Size(615, 371);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "tabPage1";
             // 
             // button2
             // 
-            button2.BackColor = Color.DeepSkyBlue;
+            button2.BackColor = SystemColors.InactiveCaption;
             button2.Location = new Point(434, 315);
             button2.Name = "button2";
             button2.Size = new Size(145, 29);
@@ -98,7 +98,7 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.DeepSkyBlue;
+            button1.BackColor = SystemColors.InactiveCaption;
             button1.Location = new Point(163, 315);
             button1.Name = "button1";
             button1.Size = new Size(152, 29);
@@ -152,7 +152,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = Color.DeepSkyBlue;
+            label1.BackColor = SystemColors.InactiveCaption;
             label1.Location = new Point(277, 13);
             label1.Name = "label1";
             label1.Size = new Size(150, 20);
@@ -214,14 +214,14 @@
             tabPage2.Controls.Add(label7);
             tabPage2.Location = new Point(4, 29);
             tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new Padding(3, 3, 3, 3);
+            tabPage2.Padding = new Padding(3);
             tabPage2.Size = new Size(615, 371);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "tabPage2";
             // 
             // button4
             // 
-            button4.BackColor = Color.DeepSkyBlue;
+            button4.BackColor = SystemColors.InactiveCaption;
             button4.Location = new Point(375, 227);
             button4.Name = "button4";
             button4.Size = new Size(161, 48);
@@ -232,7 +232,7 @@
             // 
             // button3
             // 
-            button3.BackColor = Color.DeepSkyBlue;
+            button3.BackColor = SystemColors.InactiveCaption;
             button3.Location = new Point(375, 85);
             button3.Name = "button3";
             button3.Size = new Size(161, 49);
@@ -253,7 +253,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.BackColor = Color.DeepSkyBlue;
+            label7.BackColor = SystemColors.InactiveCaption;
             label7.Location = new Point(261, 15);
             label7.Name = "label7";
             label7.Size = new Size(108, 20);
