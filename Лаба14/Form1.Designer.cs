@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
             button2 = new Button();
@@ -66,6 +67,7 @@
             // tabPage1
             // 
             tabPage1.BackColor = Color.Azure;
+            tabPage1.BackgroundImage = (Image)resources.GetObject("tabPage1.BackgroundImage");
             tabPage1.Controls.Add(button2);
             tabPage1.Controls.Add(button1);
             tabPage1.Controls.Add(comboBox2);
@@ -108,7 +110,7 @@
             // 
             // comboBox2
             // 
-            comboBox2.BackColor = SystemColors.InactiveCaption;
+            comboBox2.BackColor = SystemColors.GradientInactiveCaption;
             comboBox2.FormattingEnabled = true;
             comboBox2.Location = new Point(139, 149);
             comboBox2.Name = "comboBox2";
@@ -117,7 +119,7 @@
             // 
             // comboBox1
             // 
-            comboBox1.BackColor = SystemColors.InactiveCaption;
+            comboBox1.BackColor = SystemColors.GradientInactiveCaption;
             comboBox1.FormattingEnabled = true;
             comboBox1.Location = new Point(139, 255);
             comboBox1.Name = "comboBox1";
@@ -126,7 +128,7 @@
             // 
             // textBox3
             // 
-            textBox3.BackColor = SystemColors.InactiveCaption;
+            textBox3.BackColor = SystemColors.GradientInactiveCaption;
             textBox3.Location = new Point(139, 40);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(455, 27);
@@ -135,7 +137,7 @@
             // 
             // textBox2
             // 
-            textBox2.BackColor = SystemColors.InactiveCaption;
+            textBox2.BackColor = SystemColors.GradientInactiveCaption;
             textBox2.Location = new Point(139, 93);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(455, 27);
@@ -143,7 +145,7 @@
             // 
             // textBox1
             // 
-            textBox1.BackColor = SystemColors.InactiveCaption;
+            textBox1.BackColor = SystemColors.GradientInactiveCaption;
             textBox1.Location = new Point(139, 203);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(455, 27);
@@ -208,6 +210,7 @@
             // tabPage2
             // 
             tabPage2.BackColor = Color.Azure;
+            tabPage2.BackgroundImage = (Image)resources.GetObject("tabPage2.BackgroundImage");
             tabPage2.Controls.Add(button4);
             tabPage2.Controls.Add(button3);
             tabPage2.Controls.Add(textBox4);
@@ -243,7 +246,7 @@
             // 
             // textBox4
             // 
-            textBox4.BackColor = SystemColors.InactiveCaption;
+            textBox4.BackColor = SystemColors.GradientInactiveCaption;
             textBox4.Location = new Point(33, 55);
             textBox4.Multiline = true;
             textBox4.Name = "textBox4";
