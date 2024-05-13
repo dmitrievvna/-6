@@ -47,8 +47,8 @@
             tabPage2 = new TabPage();
             button4 = new Button();
             button3 = new Button();
-            textBox4 = new TextBox();
             label7 = new Label();
+            listBox1 = new ListBox();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -211,9 +211,9 @@
             // 
             tabPage2.BackColor = Color.Azure;
             tabPage2.BackgroundImage = (Image)resources.GetObject("tabPage2.BackgroundImage");
+            tabPage2.Controls.Add(listBox1);
             tabPage2.Controls.Add(button4);
             tabPage2.Controls.Add(button3);
-            tabPage2.Controls.Add(textBox4);
             tabPage2.Controls.Add(label7);
             tabPage2.Location = new Point(4, 29);
             tabPage2.Name = "tabPage2";
@@ -244,15 +244,6 @@
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
-            // textBox4
-            // 
-            textBox4.BackColor = SystemColors.GradientInactiveCaption;
-            textBox4.Location = new Point(33, 55);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(278, 271);
-            textBox4.TabIndex = 1;
-            // 
             // label7
             // 
             label7.AutoSize = true;
@@ -262,6 +253,14 @@
             label7.Size = new Size(108, 20);
             label7.TabIndex = 0;
             label7.Text = "Список заказа";
+            // 
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.Location = new Point(38, 71);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(290, 224);
+            listBox1.TabIndex = 4;
             // 
             // Form1
             // 
@@ -301,6 +300,6 @@
         private Label label7;
         private Button button4;
         private Button button3;
-        private TextBox textBox4;
+        private ListBox listBox1;
     }
 }
